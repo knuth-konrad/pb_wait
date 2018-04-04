@@ -10,11 +10,11 @@
 
 #Resource Version$ "CompanyName",      "STA Travel GmbH"
 #Resource Version$ "FileDescription",  "Wait amount of seconds or keypress."
-#Resource Version$ "LegalCopyright",   "Copyright 2017 STA Travel GmbH"
+#Resource Version$ "LegalCopyright",   "Copyright 2017-2018 STA Travel GmbH"
 #Resource Version$ "OriginalFilename", "Wait.exe"
 #Resource Version$ "ProductName",      "Wait"
-#Resource Version$ "ProductVersion",   "1.0.2.0"
-#Resource Version$ "FileVersion",      "1.0.2.0"
+#Resource Version$ "ProductVersion",   "1.0.3.0"
+#Resource Version$ "FileVersion",      "1.0.3.0"
 #Resource Version$ "Comments",         "Written by Knuth Konrad"
 
 $COMPANY_NAME = "STA Travel GmbH"

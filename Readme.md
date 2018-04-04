@@ -1,19 +1,19 @@
-# DeleteFilesOlderThan - Data housekeeping
-_Manage old backups, logs and similar files_
+# STAWait
+_Pause for x seconds_
 
 ---
 
 # Version history
 
 
-### Version x.x.x, x.x.20xx
+### Version 1.0.2, 05.08.2017
 #### Bugfix
 
 -    
 
 #### New
 
--     
+- Initial release.     
 
 #### Change
 

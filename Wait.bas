@@ -22,7 +22,7 @@ DefLng A-Z
 
 %VERSION_MAJOR = 1
 %VERSION_MINOR = 0
-%VERSION_REVISION = 2
+%VERSION_REVISION = 3
 
 ' Version Resource information
 #Include ".\WaitRes.inc"
@@ -324,7 +324,6 @@ Function PBMain () As Long
 End Function
 '==============================================================================
 
-
 Function ValidateParams() As Long
 '------------------------------------------------------------------------------
 'Purpose  : basic command line parameter validation
@@ -358,8 +357,8 @@ Sub ShowHelp
    Con.StdOut "----"
    Con.StdOut "Wait a specified amount of seconds or (optionally) until certain keys are pressed."
    Con.StdOut ""
-   Con.StdOut "Usage:   Wait /time=<number of seconds> [/key=<key to skip>] [/minimum=<minimum wait time although key was pressed]"
-   Con.StdOut "i.e.     Wait /t=10 /k=x"
+   Con.StdOut "Usage:   Wait /time=<number of seconds> [/key=<key to skip>] [/minimum=<minimum wait time although key was pressed>]"
+   Con.StdOut "e.g.     Wait /t=10 /k=x"
    Con.StdOut "         Waits for 10 seconds or until 'x' is pressed. Upper/lower case doesn't matter."
    Con.StdOut "         In addition to 'x', <SPACE> and <ESC> are also recognized as valid keys."
    Con.StdOut ""
@@ -371,13 +370,6 @@ Sub ShowHelp
    Con.StdOut "                  /k needs to be passed for /m to have any effect."
    Con.StdOut ""
    Con.StdOut "Please note: if no key is specified, the program can still be terminated by CTRL+BREAK."
-'   Con.StdOut "Allowed time specification units for parameter /t are:
-'   Con.StdOut "        d = day   i.e. 1d"
-'   Con.StdOut "        w = week  i.e. 2w"
-'   Con.StdOut "        m = month i.e. 3m"
-'   Con.StdOut "        y = year  i.e. 4y"
-'   Con.StdOut "Please note: 1 KB = 1024 byte, 1 MB = 1024 KB etc."
-'   Con.StdOut ""
 
 End Sub
 '---------------------------------------------------------------------------
