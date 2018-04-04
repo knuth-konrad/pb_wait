@@ -1,0 +1,14 @@
+# Test data
+zTEST/
+
+# Executables
+*.exe
+*.dll
+
+# Temp. test &  source files, compiler results, logs
+[Bb]ackup.*
+*.log
+*.tra
+
+# Other tools
+*.cmd
