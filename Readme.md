@@ -1,22 +1,19 @@
 # STAWait
-_Pause for x seconds_
+_Wait a specified amount of seconds or (optionally) until certain keys are pressed._
 
 ---
 
-# Version history
+## Usage
+`STAWait /time=<number of seconds> [/key=<key to skip>] [/minimum=<minimum wait time although key was pressed>]`
+    
+E.g. `STAWait /t=10 /k=x`, waits for 10 seconds or until 'x' is pressed. Upper/lower case doesn't matter. In addition to 'x', &lt;SPACE&gt; and &lt;ESC&gt; are also recognized as valid keys.
 
+## Parameters
+* /t or /time    
+Number of seconds to wait.
+* /k or /key    
+Key to skip the pause.
+* /m or /minimum    
+Wait at least &lt;minimum&gt; numer of seconds, although a key is pressed. `/k` needs to be passed for `/m` to have any effect.
 
-### Version 1.0.2, 05.08.2017
-#### Bugfix
-
--    
-
-#### New
-
-- Initial release.     
-
-#### Change
-
--    
-
----
+Please note: if no key is specified, the program can still be terminated by CTRL+BREAK.
