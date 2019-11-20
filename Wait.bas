@@ -77,8 +77,8 @@ Function PBMain () As Long
    Let oPTNow = Class "PowerTime"
 
    ' Application intro
-   ConHeadline "Wait", %VERSION_MAJOR, %VERSION_MINOR, %VERSION_REVISION
-   ConCopyright "2017", $COMPANY_NAME
+   ConHeadline "STAWait", %VERSION_MAJOR, %VERSION_MINOR, %VERSION_REVISION
+   ConCopyright "2017-2018", $COMPANY_NAME
    Con.StdOut ""
 
    ' Debug Info
