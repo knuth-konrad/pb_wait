@@ -78,7 +78,7 @@ Function PBMain () As Long
 
    ' Application intro
    ConHeadline "STAWait", %VERSION_MAJOR, %VERSION_MINOR, %VERSION_REVISION
-   ConCopyright "2017-2018", $COMPANY_NAME
+   ConCopyright "2017-2020", $COMPANY_NAME
    Con.StdOut ""
 
    ' Debug Info
