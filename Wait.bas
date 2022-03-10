@@ -8,7 +8,7 @@
 '   Source: -
 '  Changed: -
 '------------------------------------------------------------------------------
-#Compile Exe "STAWait.exe"
+#Compile Exe "Wait.exe"
 #Option Version5
 #Dim All
 
@@ -339,7 +339,7 @@ Function ValidateParams() As Long
 
    If (gudtCfg.MinSeconds > 0) And (gudtCfg.MinSeconds > gudtCfg.Seconds) Then
 
-      Con.StdOut "Invalid time parameters - minimum wait time can't ge grater than wait time."
+      Con.StdOut "Invalid time parameters - minimum wait time can't ge greater than wait time."
       Exit Function
 
    End If
@@ -366,7 +366,7 @@ Sub ShowHelp
    Con.StdOut "----------"
    Con.StdOut "/t or /time     = Number of seconds to wait"
    Con.StdOut "/k or /key      = Key to skip the pause"
-   Con.StdOut "/m or /minimum  = Wait at least <minimum> numer of seconds, although a key is pressed"
+   Con.StdOut "/m or /minimum  = Wait at least <minimum> number of seconds, although a key is pressed"
    Con.StdOut "                  /k needs to be passed for /m to have any effect."
    Con.StdOut ""
    Con.StdOut "Please note: if no key is specified, the program can still be terminated by CTRL+BREAK."

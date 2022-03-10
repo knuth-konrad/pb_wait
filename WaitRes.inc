@@ -8,13 +8,13 @@
 
 #Resource StringInfo "0407", "04B0"
 
-#Resource Version$ "CompanyName",      "STA Travel GmbH"
+#Resource Version$ "CompanyName",      "BasicAware"
 #Resource Version$ "FileDescription",  "Wait amount of seconds or keypress."
-#Resource Version$ "LegalCopyright",   "Copyright 2017-2020 STA Travel GmbH"
-#Resource Version$ "OriginalFilename", "STAWait.exe"
-#Resource Version$ "ProductName",      "STAWait"
+#Resource Version$ "LegalCopyright",   "Copyright 2017-2022 Knuth Konrad"
+#Resource Version$ "OriginalFilename", "Wait.exe"
+#Resource Version$ "ProductName",      "Wait"
 #Resource Version$ "ProductVersion",   "1.0.3.0"
 #Resource Version$ "FileVersion",      "1.0.3.0"
 #Resource Version$ "Comments",         "Written by Knuth Konrad"
 
-$COMPANY_NAME = "STA Travel GmbH"
+$COMPANY_NAME = "BasicAware"
